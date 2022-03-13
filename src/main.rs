@@ -1,4 +1,4 @@
-use sysinfo::{NetworkExt, NetworksExt, ProcessExt, System, SystemExt};
+use sysinfo::{NetworkExt, ProcessExt, System, SystemExt};
 
 // Please note that we use "new_all" to ensure that all list of
 // components, network interfaces, disks and users are already
