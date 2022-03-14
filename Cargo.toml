@@ -1,5 +1,5 @@
 [package]
-name = "my-project"
+name = "whinny"
 version = "0.1.0"
 authors = ["runner"]
 edition = "2021"
@@ -8,3 +8,4 @@ edition = "2021"
 
 [dependencies]
 sysinfo = "0.23.5"
+cargo-aur = "1.4.1"
