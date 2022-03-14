@@ -1,3 +1,5 @@
+use std::thread;
+use std::time::Duration;
 use sysinfo::{NetworkExt, ProcessExt, System, SystemExt};
 
 // Please note that we use "new_all" to ensure that all list of
@@ -25,6 +27,7 @@ fn main() {
     println!("=> components:");
     for component in sys.components() {
         println!("{:?}", component);
+        thread::sleep(Duration::from_millis(1));
     }
     
     println!("=> system:");

@@ -1,0 +1,1 @@
+![time comparison between neofetch and whinny](/images/comparison.png "Title")

@@ -1,1 +1,1 @@
-/home/runner/whinny/target/debug/whinny: /home/runner/whinny/src/main.rs
+/Users/nicolas/Documents/whinny/target/debug/whinny: /Users/nicolas/Documents/whinny/src/main.rs
